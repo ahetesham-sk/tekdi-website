@@ -1,0 +1,145 @@
+.navbar-collapse {
+    flex-grow: unset;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.navbar-bottom {
+    border-bottom: 1px solid #fff;
+}
+
+#main-header {
+    background-image: url(/assets/images/bg-home.jpg);
+    background-repeat: no-repeat;
+    min-height: 500px;
+    position: relative;
+    text-align: left;
+    height: 100%;
+    color: #fff;
+    background-size: cover;
+    background-position: 50%;
+    padding: 0 0 30px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.bg-grey {
+    background-color: #f1f1f1;
+}
+
+.btn-link {
+    text-decoration: none !important;
+}
+
+.text-white{
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.myCard {
+    background-color: #09225a;
+    color: #fff;
+    min-height: 300px;
+    border-radius: 0px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    width: 100%;
+}
+
+.myCard:hover {
+    transition: height 2s;
+    height: 400px;
+    background: linear-gradient(to right bottom, #1272bc, #0088cb, #009dd6, #00b2df, #24c7e6);
+    color: #fff;
+}
+
+.hide {
+    display: none;
+}
+
+.myDIV:hover+.hide {
+    cursor: pointer;
+    display: block;
+    color: #fff;
+}
+
+.white-card:hover{
+    transition: height 2s;
+    box-shadow: 0 0 20px 10px rgb(0 0 0 / 10%);
+    cursor: pointer;
+}
+
+.bg {
+    background: #fff url(https://www.tekdi.net/static/industries-bg-2e408c46d42becde62c69536d7204572.png) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+.join-us-img{
+    height: 350px;
+    width: 100%;
+}
+.join-us{
+    background-color: #010836 !important;
+    padding: 10%;
+    color: #fff;
+    height: 350px;
+}
+.about-us{
+    background-color: #17b1cf !important;
+    padding: 5%;
+    color: #fff;
+    height: 350px;
+}
+.vision{
+    background-color: #1271bb !important;
+    padding: 5%;
+    color: #fff;
+    height: 350px;
+}
+.img-gray{
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+.img-gray:hover{
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+}
+.contact-us {
+    background: #000 url(/assets/images/contact.jpg) no-repeat;
+    color: #fff!important;
+    background-size: cover;
+    background-position: 50%;
+}
+.footer{
+    background-color: #09225a;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer-cover {
+    padding: 40px 0;
+}
+
+.custom-ul{
+    list-style: none;
+    line-height: 50px;
+    cursor: pointer;
+    padding-left: 0rem !important;
+}
+.copytight {
+    color: #426c95;
+    border-top: 1px solid #838fad;
+}
